@@ -18,7 +18,7 @@ public class MensajesServicio {
     }
 
     public static void listarMensajes(){
-
+        MensajesAcciones.leerMensajesBD();
     }
 
     public static void borrarMensaje(){
